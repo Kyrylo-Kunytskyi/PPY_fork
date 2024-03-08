@@ -231,6 +231,8 @@ print("Intersection of set:", set_intersection)
 print("Difference of set:", set_difference)
 print("Updated Dictionary:", numbers_dict)
 
+# --------
+
 """7. **Built-in Types and Type Conversion**
 
   Extend the previous Python program to demonstrate the use of built-in types and type conversion. Perform the following operations:
