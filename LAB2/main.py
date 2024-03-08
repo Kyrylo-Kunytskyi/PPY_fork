@@ -31,10 +31,10 @@ Write a Python program that takes input from the user to create a list of intege
 input_numbers = input("Enter a series of space-separated integers: ")
 
 # Convert Input:
-
+numbers_list = [int(x) for x in input_numbers.split(", ")]
 
 # Sorting:
-
+numbers_list.sort()
 
 # Print Output
 print("Sorted list:", numbers_list)
@@ -74,10 +74,11 @@ Extend the previous Python program to include tuples. Now, in addition to creati
 input_numbers = input("Enter a series of space-separated integers: ")
 
 # Convert Input:
-
+numbers_list = [int(x) for x in input_numbers.split(' ')]
 
 # Sorting:
-
+numbers_list.sort()
+sorted_tuple = tuple(numbers_list)
 
 # Print Output
 print("Sorted list:", numbers_list)
@@ -110,7 +111,7 @@ Extend the previous Python program to demonstrate the manipulation of lists usin
 input_numbers = input("Enter a series of space-separated integers: ")
 
 # Convert Input
-
+numbers_list = [int(x) for x in input_numbers.split(' ')]
 
 # Manipulate List
 #   Append 10 to the list
